@@ -66,7 +66,7 @@ void Buttons(unsigned char key,int x,int y)
 
 
 //---------------------------Draw Rays and Walls--------------------------------
-float distance(ax,ay,bx,by,ang){ return cos(degToRad(ang))*(bx-ax)-sin(degToRad(ang))*(by-ay);}
+float distance(float ax, float ay, float bx, float by, float ang){ return cos(degToRad(ang))*(bx-ax)-sin(degToRad(ang))*(by-ay);}
 
 void drawRays2D()
 {
