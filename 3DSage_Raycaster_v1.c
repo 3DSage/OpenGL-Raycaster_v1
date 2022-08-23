@@ -379,7 +379,7 @@ int main(int argc, char* argv[])
  glutInitWindowSize(1024,510);
  
  //sets window name
- glutCreateWindow("Cold Blood - Alpha");
+ glutCreateWindow("Youtube- 3DSage");
  
  //calls the initilisation function
  init();
